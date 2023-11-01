@@ -10,6 +10,7 @@
 </template>
 
 <script>
+// This is the options API route.
 export default {
     Name:'Maps',
     data() {

@@ -1,14 +1,15 @@
 <template>
-  <Maps></Maps>
+  <GoogleMap></GoogleMap>
 </template>
 
 <script>
 import Maps from './components/Maps.vue';
-
+import GoogleMap from './components/GoogleMap.vue';
 export default {
   name: 'App',
   components: {
-    Maps
+    Maps,
+    GoogleMap
   }
 }
 </script>
@@ -20,6 +21,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  
 }
 </style>
