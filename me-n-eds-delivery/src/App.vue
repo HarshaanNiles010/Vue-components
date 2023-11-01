@@ -1,15 +1,17 @@
 <template>
-  <GoogleMap></GoogleMap>
+  <AddressList></AddressList>
 </template>
 
 <script>
 import Maps from './components/Maps.vue';
 import GoogleMap from './components/GoogleMap.vue';
+import AddressList from './components/AddressList.vue';
 export default {
   name: 'App',
   components: {
     Maps,
-    GoogleMap
+    GoogleMap,
+    AddressList
   }
 }
 </script>
