@@ -1,5 +1,5 @@
 <template>
-  <AddressList></AddressList>
+  <GoogleMap></GoogleMap>
 </template>
 
 <script>

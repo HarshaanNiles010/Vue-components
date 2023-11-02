@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@samhess/vue-address-input": "^1.0.0",
+    "@vueform/vueform": "^1.5.4",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue3-google-map": "^0.18.0"
