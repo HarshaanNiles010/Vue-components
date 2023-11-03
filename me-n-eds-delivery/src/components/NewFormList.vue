@@ -14,22 +14,22 @@
 
 <script>
 export default {
-  data() {
-    return {
-      newItem: '',
-      items: []
-    };
-  },
-  methods: {
-    addItem() {
-      if (this.newItem) {
-        this.items.push(this.newItem);
-        this.newItem = '';
-      }
+    data() {
+        return {
+            newItem: '',
+            items: []
+        };
     },
-    removeItem(index) {
-      this.items.splice(index, 1);
+    methods: {
+        addItem() {
+        if (this.newItem) {
+            this.items.push(this.newItem);
+            this.newItem = '';
+        }
+    },
+        removeItem(index) {
+            this.items.splice(index, 1);
+        }
     }
-  }
 };
 </script>
