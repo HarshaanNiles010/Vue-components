@@ -1,5 +1,5 @@
 <template>
-  <NewFormList></NewFormList>
+  <newAddress></newAddress>
 </template>
 
 <script>
@@ -7,13 +7,15 @@ import Maps from './components/Maps.vue';
 import GoogleMap from './components/GoogleMap.vue';
 import AddressList from './components/AddressList.vue';
 import NewFormList from './components/NewFormList.vue';
+import newAddress from './components/newAddress.vue';
 export default {
   name: 'App',
   components: {
     Maps,
     GoogleMap,
     AddressList,
-    NewFormList
+    NewFormList,
+    newAddress
   }
 }
 </script>

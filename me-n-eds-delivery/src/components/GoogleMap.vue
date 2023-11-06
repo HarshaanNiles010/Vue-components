@@ -24,7 +24,6 @@ export default defineComponent({
             //console.log("Longitude: ", center.lng);
         })
     }
-    
     return { center };
     },
 });

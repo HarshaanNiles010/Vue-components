@@ -10,11 +10,12 @@
     const editedItem = reactive({})
   // mapbox options as per https://docs.mapbox.com/api/search/geocoding
     const mapboxOptions = {
-        access_token : '',
+        access_token : 'pk.eyJ1IjoiaG5pbGVzOTE5IiwiYSI6ImNsb2Yybjh2cDBqNGcyanFtYnlzNDBoNzYifQ.eOD5dvXZBVocTKcBD6GHuw',
         limit : 10,
         language: 'de'
     }
     function getAddress(address) {
         Object.assign(editedItem,address)
+        console.log(editedItem);
     }
 </script>
