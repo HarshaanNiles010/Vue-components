@@ -1,2 +1,1 @@
-googele map API key: AIzaSyBZJ9F6UTz_I99R8YRx0lSXQD6pMRy2bzU
-map-box API key: pk.eyJ1IjoiaG5pbGVzOTE5IiwiYSI6ImNsb2Yybjh2cDBqNGcyanFtYnlzNDBoNzYifQ.eOD5dvXZBVocTKcBD6GHuw
+
